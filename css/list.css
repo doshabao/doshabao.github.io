@@ -1,0 +1,163 @@
+.clearfix:before,.clearfix:after{  /* 前面 */
+    content: "";
+    display: table;
+}
+.clearfix:after{   /* 后面 */
+    clear: both;
+}
+.clearfix:after{
+    /* *IE6、7 专有 */
+    *zoom: 1;
+}
+
+.sk{
+    position: absolute;
+    left: 185px;
+    top: 20px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 0 0 14px;
+}
+
+.nav{   
+    overflow: hidden;
+}
+.sk_li ul li{
+    float: left;
+}
+.sk_li ul li a{
+    display: block;
+    line-height: 46px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+    padding: 0 30px;
+}
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li a{
+    display: block;
+    line-height: 48px;
+    padding: 0 25px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after{
+    font-family: "iconfont"; /* Project id  */
+    content: '\e602';
+    padding-left: 5px;
+}
+
+
+ /* 列表页主体部分（手机模块部分）   start */
+ .sk_container .sk_bd{
+     margin-top: 27px;
+ }
+ .sk_container .sk_bd ul li{
+     float: left;
+     width: 288.75px;
+     margin-right: 15px;
+ }   
+ .sk_container .sk_bd ul li:nth-child(4n){
+     margin-right: 0;
+ }
+
+ .box{
+    width: 288.75px;
+    height: 460px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.box:hover{
+    cursor: pointer;
+    border: 1px solid red;
+}
+.box img{
+    width: 260px;
+    height: 290px;
+    margin: 13px;
+}
+.box .name{
+    width: 260px;
+    height: 10px;
+    /* background-color: pink; */
+    margin: 0 20px 21px 20px;
+    word-break: break-all;
+    color: #9fa9b0;
+    text-indent: 1px;
+}
+.box .price h2{
+    display: inline-block;
+    margin-left: 20px;
+    color: red;
+}
+.box .price span{
+   text-decoration: line-through;
+    color: #a4a4a0;
+}
+.box .jindutiao{
+    margin: 5px 0 0 12px;
+    position: relative;
+    width: 260px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 12px;
+    
+    background-color: pink;
+}
+.box .jindutiao span i{
+    font-size: 12px;
+    color: red;
+    text-indent: 1px;
+}
+
+.box .jindutiao_nav{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 21%;
+    width: 150px;
+    height: 15px;
+    margin-top: -7px;
+    border-radius: 7px;
+    border: 1px solid red;
+    
+}
+  .jindutiao_nav_jindu{
+    width: 20%;
+    height: 100%;
+    border-radius: 7px;
+    transition: all 2s;
+    background-color: red;
+}
+.jindutiao_nav:hover .jindutiao_nav_jindu{
+    width: 80%;
+}
+.jindutiao  span:last-of-type{
+    position: absolute;
+    right: 0;
+}
+.jindutiao_text{
+    position: absolute;
+    left: 0;
+}
+.sk_footer{
+    margin: 10px 0 0 12px;
+    width: 260px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: red;
+}
+.sk_footer a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+.sk_footer:hover{
+    background-color: skyblue;
+}
+
+
+ /* 列表页主体部分   end */

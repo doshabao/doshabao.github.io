@@ -1,0 +1,313 @@
+/* 主页专有模块 main  start */
+.main{
+    margin: 10px 0 0 220px;
+    width: 980px;
+    height: 455px;
+    /* background-color: pink; */
+}
+.focus{
+    float: left;
+    width: 715px;
+    height: 455px;
+    background-color: lightgreen;
+    /* margin-left: 10px; */
+}
+.focus img{
+    width: 715px;
+    height: 455px;
+}
+.newsflash{
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color: aqua; */
+    /* border: 1px solid #e4e4e4; */
+}
+.newsflash .news{
+    position: relative;
+    width: 250px;
+    height: 33px;
+    border: 1px solid #e4e4e4;
+    border-bottom: 1px dashed #e4e4e4;
+    /* background-color: blue; */
+}
+.newsflash .news h4{
+    height: 33px;
+    line-height: 33px;
+    font-size: 14px;
+    color: #333333;
+    padding-left: 15px;
+}
+.newsflash .news a{
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 25px;
+    font-size: 14px;
+    color: #333333;
+}
+.newsflash .news a::after{
+    font-family: "iconfont";
+    content: '\e634';
+    font-size: 10px;
+    margin-left: 10px;
+}
+.news_list{
+    width: 250px;
+    height: 133px;
+    /* background-color: blanchedalmond; */
+    /* margin-bottom: 5px; */
+    border: 1px solid #e4e4e4;
+}
+.news_list ul li:first-child{
+    padding-top: 5px;
+}
+.news_list ul li{
+    padding-left: 15px;
+    padding-bottom: 7px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.news_service{
+    width: 250px;
+    height: 210px;
+    /* background-color: salmon; */
+    text-align: center;
+}
+.news_service ul li{
+    position: relative;
+    float: left;
+    width: 62.5px;
+    height: 70px;
+    border-left: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    text-align: center;
+}
+.news_service .jian{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.news_service i{
+    display: inline-block;
+    width: 22px;
+    height: 27px;
+    background-color: pink;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+    margin-top: 12px;
+}
+.news_service .service_jipiao{
+    background: url(../images/icons.png) no-repeat -81px -15px;
+}
+.bargain{
+    width: 250px;
+    height: 74px;
+    margin-top: 5px;
+    background-color: pink;
+}
+.bargain img{
+    width: 250px;
+    height: 74px;
+}
+/* 主页专有模块 main  end */
+
+
+/* 推荐模块 start */
+.recom{
+    margin-top: 10px;
+    height: 165px;
+    background-color: #ebebeb;
+}
+.recom .recom_hd{
+    float: left;
+    width: 205px;
+    height: 165px;
+    background-color: #5c5251;
+    text-align: center;
+    line-height: 165px;
+    margin-right: 13px;
+}
+.recom_bd{
+    float: left;
+    width: 982px;
+    height: 165px;
+    /* background-color: aquamarine; */
+}
+.recom_bd ul li{
+    position: relative;
+    float: left;
+}
+.recom_bd ul li img{
+    width: 245.5px;
+    height: 165px;
+
+}
+.recom_bd ul li:nth-child(-n+3)::after{
+    position: absolute;
+    content:'' ;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    top: 10px;
+   background-color: #dddddd;
+}
+/*  推荐模块end*/
+
+
+/* 好商品 模块 start */
+.niceGoods{
+    height: 265px;
+    margin-top: 30px;
+    /* background-color: pink; */
+}
+.niceGoods_hd{
+    height: 20px;
+    line-height: 20px;
+    /* background-color: aqua; */
+}
+.niceGoods_hd h3{
+    float: left;
+    font-size: 18px;
+    color: #333333;
+}
+.niceGoods_hd>a{
+    float: right;
+    padding-right: 50px;
+    font-size: 12px;
+    color: #666666;
+}
+.niceGoods_hd>a::after{
+    font-family: "iconfont";
+    content:'\e634';
+    padding-left: 10px;
+}
+.niceGoods_bd{
+    margin-top: 10px;
+    height: 235px;
+    /* background-color: skyblue; */
+    border: 1px solid #ededed;
+}
+.niceGoods_bd ul li{
+    position: relative;
+    float: left;
+    width: 199.5px;
+    height: 235px;
+    /* background-color: yellow; */
+    text-align: center;
+}
+.niceGoods_bd ul li:nth-child(-n+5)::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 63px;
+    right: 0;
+    bottom: 10px;
+    background-color: #ededed;
+
+}
+.niceGoods_bd ul li img{
+    width: 128px;
+    height: 128px;
+}
+.niceGoods_bd ul li a{
+    margin-left: -66px;
+    font-size: 14px;
+    color: #df3033;
+}
+.niceGoods_text{
+    width: 125px;
+    height: 35px;
+    /* background-color: salmon; */
+    margin-left: 36px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/* 好商品 模块 end */
+
+
+/* 楼层模块start */
+.floor_hd{
+    
+    height: 50px;
+    line-height: 50px;
+    /* background-color: pink; */
+    margin-top: 10px;
+    border-bottom: 2px solid #c81623;
+}
+.floor_hd h3{
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.tab_list {
+    float: right;
+}
+.floor_hd .tab_list ul li{
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    
+}
+.floor_hd .tab_list ul li a{
+   margin: 0 10px;
+}
+
+.floor_bd{
+    height: 361px;
+    /* background-color: #ededed; */
+}
+.tab_list_item>div{
+    float: left;
+}
+.col_210{
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul{
+    margin-left: 12px;
+}
+.col_210 ul li{
+    float: left;
+    width: 85px;
+    height: 34px;
+    line-height: 33px;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+    margin-right: 10px;
+}
+.col_329{
+    float: left;
+    height: 361px;
+    width: 329px;
+}
+
+.col_221{
+    float: left;
+    height: 361px;
+    width: 221px;
+    border-right: 1px solid #ededed;
+}
+.col_bb{
+    /* 一般情况下,a如果包含有宽度的盒子，a需要转为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
+.col_219{
+    float: left;
+    height: 361px;
+    width: 219px;
+}
